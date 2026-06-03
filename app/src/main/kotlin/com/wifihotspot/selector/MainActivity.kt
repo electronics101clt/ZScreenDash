@@ -32,6 +32,9 @@ class MainActivity : AppCompatActivity() {
     private val TAG = "WifiSelector"
     private val ESP32_URL = "http://192.168.4.1"
 
+    private var bluetoothWasEnabled = false
+    private var hotspotWasEnabled = false
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -119,6 +122,10 @@ class MainActivity : AppCompatActivity() {
     @Suppress("DEPRECATION")
     private fun killSoftAp() {
         try {
+            // Save hotspot state before killing
+            val apState = getWifiApState()
+            hotspotWasEnabled = (apState == 13 || apState == 12) // AP_STATE_ENABLED or AP_STATE_ENABLING
+
             // Try multiple reflection methods to disable SoftAP
             val setWifiApEnabled = wifiManager.javaClass.getMethod(
                 "setWifiApEnabled",
@@ -126,7 +133,7 @@ class MainActivity : AppCompatActivity() {
                 Boolean::class.javaPrimitiveType
             )
             setWifiApEnabled.invoke(wifiManager, null, false)
-            Log.d(TAG, "killSoftAp: setWifiApEnabled(null, false) called")
+            Log.d(TAG, "killSoftAp: setWifiApEnabled(null, false) called (was enabled: $hotspotWasEnabled)")
         } catch (e: Exception) {
             Log.d(TAG, "killSoftAp failed: ${e.message}")
         }
@@ -136,20 +143,26 @@ class MainActivity : AppCompatActivity() {
     private fun killBluetooth() {
         try {
             val bluetoothAdapter = BluetoothAdapter.getDefaultAdapter()
-            if (bluetoothAdapter != null && bluetoothAdapter.isEnabled) {
-                val success = bluetoothAdapter.disable()
-                Log.d(TAG, "killBluetooth: disable() returned $success")
-                if (!success) {
-                    Log.d(TAG, "killBluetooth: automatic disable failed")
+            if (bluetoothAdapter != null) {
+                // Save Bluetooth state before killing
+                bluetoothWasEnabled = bluetoothAdapter.isEnabled
+
+                if (bluetoothAdapter.isEnabled) {
+                    val success = bluetoothAdapter.disable()
+                    Log.d(TAG, "killBluetooth: disable() returned $success (was enabled: $bluetoothWasEnabled)")
+                    if (!success) {
+                        Log.d(TAG, "killBluetooth: automatic disable failed")
+                    }
+                } else {
+                    Log.d(TAG, "killBluetooth: Bluetooth already off")
                 }
-            } else {
-                Log.d(TAG, "killBluetooth: Bluetooth already off or not available")
             }
         } catch (e: Exception) {
             Log.e(TAG, "killBluetooth failed: ${e.message}")
         }
     }
 
+    @Suppress("DEPRECATION")
     override fun onDestroy() {
         super.onDestroy()
 
@@ -165,11 +178,39 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        // Release binding for all versions
+        // Release WiFi binding for all versions
         try {
             connectivityManager.bindProcessToNetwork(null)
-            Log.d(TAG, "Released binding")
+            Log.d(TAG, "Released WiFi binding")
         } catch (e: Exception) {}
+
+        // Restore Bluetooth to original state
+        if (bluetoothWasEnabled) {
+            try {
+                val bluetoothAdapter = BluetoothAdapter.getDefaultAdapter()
+                bluetoothAdapter?.enable()
+                Log.d(TAG, "Restored Bluetooth (was enabled)")
+            } catch (e: Exception) {
+                Log.e(TAG, "Failed to restore Bluetooth: ${e.message}")
+            }
+        }
+
+        // Restore hotspot to original state
+        if (hotspotWasEnabled) {
+            try {
+                val setWifiApEnabled = wifiManager.javaClass.getMethod(
+                    "setWifiApEnabled",
+                    android.net.wifi.WifiConfiguration::class.java,
+                    Boolean::class.javaPrimitiveType
+                )
+                setWifiApEnabled.invoke(wifiManager, null, true)
+                Log.d(TAG, "Restored hotspot (was enabled)")
+            } catch (e: Exception) {
+                Log.e(TAG, "Failed to restore hotspot: ${e.message}")
+            }
+        }
+
+        Log.d(TAG, "App closed - all states restored")
     }
 
     private fun checkPermissions() {
