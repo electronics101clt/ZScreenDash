@@ -1,0 +1,293 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:2:1-40:12
+MERGED from [com.google.android.material:material:1.6.1] /home/jonathan/.gradle/caches/transforms-3/76a808e54c0a3330c036975ae97e9597/transformed/material-1.6.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/jonathan/.gradle/caches/transforms-3/8e2760051c1b8bd446f4ffc506e9e010/transformed/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.4.2] /home/jonathan/.gradle/caches/transforms-3/b915ebc6d0e4a40e86fb1c34a6114a96/transformed/appcompat-1.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/jonathan/.gradle/caches/transforms-3/7e183714d608086d75546b05c6c1ee1d/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] /home/jonathan/.gradle/caches/transforms-3/e0061555d85356df02de5d6753d3b10b/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /home/jonathan/.gradle/caches/transforms-3/bd45cdc5a053a0f755e67b5306e9c163/transformed/activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] /home/jonathan/.gradle/caches/transforms-3/47059f0615a09faa92c8de31c58d87dc/transformed/appcompat-resources-1.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /home/jonathan/.gradle/caches/transforms-3/75ed147e318bbbb70f2b461a7f6bcd9d/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/jonathan/.gradle/caches/transforms-3/b6c42568698ed014f4af4b1e0dedad51/transformed/emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/jonathan/.gradle/caches/transforms-3/b60aa4960a3f31c369dafbdabd72b2c9/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/jonathan/.gradle/caches/transforms-3/a205e429663d839a45d906c0214d562f/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/jonathan/.gradle/caches/transforms-3/f7557b7b37159aa83377aa8cde6a85a3/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /home/jonathan/.gradle/caches/transforms-3/67b41eccd1f041aab845bbd255adbe63/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/jonathan/.gradle/caches/transforms-3/34ba32f5ba4cb1a78d51ca940750cf5d/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/jonathan/.gradle/caches/transforms-3/01f4912afb52f239e10d22e127da1af7/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/jonathan/.gradle/caches/transforms-3/fd941e40cddb8ef1d52f8505a45f2029/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/jonathan/.gradle/caches/transforms-3/3c29270b39a9e48546645dd9dee52444/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/jonathan/.gradle/caches/transforms-3/4369101ec1993eb63cfda32c29c145da/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/jonathan/.gradle/caches/transforms-3/531775e5df130f279d658a8bfbe587d0/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /home/jonathan/.gradle/caches/transforms-3/8defe5599ccb02c3ecdb783af44872c4/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.9.0] /home/jonathan/.gradle/caches/transforms-3/ebcc01801558a7131546317bf5596cb6/transformed/core-1.9.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.core:core-ktx:1.9.0] /home/jonathan/.gradle/caches/transforms-3/7290d33c88f0d531c8a179a347f20049/transformed/core-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/jonathan/.gradle/caches/transforms-3/f8a9fa4f1ce41dbddac22550ccb2d9e6/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/jonathan/.gradle/caches/transforms-3/dee179a10dcda7e894136e53100406c5/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/jonathan/.gradle/caches/transforms-3/1eb7f9a972d190028da2691343b41859/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/jonathan/.gradle/caches/transforms-3/8849d8f185724fa1d074e83846c7a925/transformed/savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/jonathan/.gradle/caches/transforms-3/cadab43a3687c1803206790e5f3b67eb/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/jonathan/.gradle/caches/transforms-3/33dc2f74d37d90cc86adfdba572d6c01/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/jonathan/.gradle/caches/transforms-3/d08a0191fe9d26fd09f6dad3c34bb371/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/jonathan/.gradle/caches/transforms-3/4d3a853cff10ce372bdd5784ae4f92ad/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/jonathan/.gradle/caches/transforms-3/d8f2dc09c452ce7e8d8178309f6c036b/transformed/startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/jonathan/.gradle/caches/transforms-3/026a105fedc2421a0f36e0224215c08c/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/jonathan/.gradle/caches/transforms-3/421eb728ba89037ae9fb0ca04b9c7824/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/jonathan/.gradle/caches/transforms-3/c4e3ae3a702613a1b405c65fd01cb84c/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /home/jonathan/.gradle/caches/transforms-3/97c10f7bcdd21b9f2cb9fb68ea1e75c0/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/jonathan/.gradle/caches/transforms-3/754391a91e4e64c3c6e5726c5595dc8e/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/jonathan/.gradle/caches/transforms-3/901cef376f864562599d777790d47120/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/jonathan/.gradle/caches/transforms-3/086e13b35e67494c8ec87197b79348fd/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/jonathan/.gradle/caches/transforms-3/24ed0ad0459aae9ff83311f0beedf17e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/jonathan/.gradle/caches/transforms-3/177f64d7fe32be7540af7bfbae1c9526/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:2:1-40:12
+	package
+		INJECTED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml
+		ADDED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:2:1-40:12
+		INJECTED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml
+		ADDED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:2:1-40:12
+		INJECTED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml
+		ADDED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:2:1-40:12
+		INJECTED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:4:5-76
+	android:name
+		ADDED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:4:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:5:5-76
+	android:name
+		ADDED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:5:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:8:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:10:5-73
+	android:name
+		ADDED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:10:22-70
+application
+ADDED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:12:5-39:19
+MERGED from [com.google.android.material:material:1.6.1] /home/jonathan/.gradle/caches/transforms-3/76a808e54c0a3330c036975ae97e9597/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.6.1] /home/jonathan/.gradle/caches/transforms-3/76a808e54c0a3330c036975ae97e9597/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/jonathan/.gradle/caches/transforms-3/8e2760051c1b8bd446f4ffc506e9e010/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/jonathan/.gradle/caches/transforms-3/8e2760051c1b8bd446f4ffc506e9e010/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/jonathan/.gradle/caches/transforms-3/b6c42568698ed014f4af4b1e0dedad51/transformed/emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/jonathan/.gradle/caches/transforms-3/b6c42568698ed014f4af4b1e0dedad51/transformed/emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.9.0] /home/jonathan/.gradle/caches/transforms-3/ebcc01801558a7131546317bf5596cb6/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] /home/jonathan/.gradle/caches/transforms-3/ebcc01801558a7131546317bf5596cb6/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/jonathan/.gradle/caches/transforms-3/d08a0191fe9d26fd09f6dad3c34bb371/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/jonathan/.gradle/caches/transforms-3/d08a0191fe9d26fd09f6dad3c34bb371/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/jonathan/.gradle/caches/transforms-3/4d3a853cff10ce372bdd5784ae4f92ad/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/jonathan/.gradle/caches/transforms-3/4d3a853cff10ce372bdd5784ae4f92ad/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/jonathan/.gradle/caches/transforms-3/d8f2dc09c452ce7e8d8178309f6c036b/transformed/startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/jonathan/.gradle/caches/transforms-3/d8f2dc09c452ce7e8d8178309f6c036b/transformed/startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] /home/jonathan/.gradle/caches/transforms-3/ebcc01801558a7131546317bf5596cb6/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+	android:label
+		ADDED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:15:9-41
+	android:icon
+		ADDED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:14:9-56
+	android:allowBackup
+		ADDED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:13:9-35
+	android:theme
+		ADDED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:16:9-67
+activity#com.wifihotspot.selector.MainActivity
+ADDED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:18:9-25:20
+	android:exported
+		ADDED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:20:13-36
+	android:name
+		ADDED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:19:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:21:13-24:29
+action#android.intent.action.MAIN
+ADDED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:23:27-74
+service#com.wifihotspot.selector.CarPlayKillerService
+ADDED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:27:9-37:19
+	android:exported
+		ADDED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:30:13-37
+	android:permission
+		ADDED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:29:13-79
+	android:name
+		ADDED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:28:13-49
+intent-filter#action:name:android.accessibilityservice.AccessibilityService
+ADDED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:31:13-33:29
+action#android.accessibilityservice.AccessibilityService
+ADDED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:32:17-92
+	android:name
+		ADDED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:32:25-89
+meta-data#android.accessibilityservice
+ADDED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:34:13-36:64
+	android:resource
+		ADDED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:36:17-61
+	android:name
+		ADDED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml:35:17-60
+uses-sdk
+INJECTED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml
+INJECTED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.6.1] /home/jonathan/.gradle/caches/transforms-3/76a808e54c0a3330c036975ae97e9597/transformed/material-1.6.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.6.1] /home/jonathan/.gradle/caches/transforms-3/76a808e54c0a3330c036975ae97e9597/transformed/material-1.6.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/jonathan/.gradle/caches/transforms-3/8e2760051c1b8bd446f4ffc506e9e010/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/jonathan/.gradle/caches/transforms-3/8e2760051c1b8bd446f4ffc506e9e010/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.4.2] /home/jonathan/.gradle/caches/transforms-3/b915ebc6d0e4a40e86fb1c34a6114a96/transformed/appcompat-1.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.2] /home/jonathan/.gradle/caches/transforms-3/b915ebc6d0e4a40e86fb1c34a6114a96/transformed/appcompat-1.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/jonathan/.gradle/caches/transforms-3/7e183714d608086d75546b05c6c1ee1d/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/jonathan/.gradle/caches/transforms-3/7e183714d608086d75546b05c6c1ee1d/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/jonathan/.gradle/caches/transforms-3/e0061555d85356df02de5d6753d3b10b/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/jonathan/.gradle/caches/transforms-3/e0061555d85356df02de5d6753d3b10b/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /home/jonathan/.gradle/caches/transforms-3/bd45cdc5a053a0f755e67b5306e9c163/transformed/activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /home/jonathan/.gradle/caches/transforms-3/bd45cdc5a053a0f755e67b5306e9c163/transformed/activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] /home/jonathan/.gradle/caches/transforms-3/47059f0615a09faa92c8de31c58d87dc/transformed/appcompat-resources-1.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] /home/jonathan/.gradle/caches/transforms-3/47059f0615a09faa92c8de31c58d87dc/transformed/appcompat-resources-1.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /home/jonathan/.gradle/caches/transforms-3/75ed147e318bbbb70f2b461a7f6bcd9d/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /home/jonathan/.gradle/caches/transforms-3/75ed147e318bbbb70f2b461a7f6bcd9d/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/jonathan/.gradle/caches/transforms-3/b6c42568698ed014f4af4b1e0dedad51/transformed/emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/jonathan/.gradle/caches/transforms-3/b6c42568698ed014f4af4b1e0dedad51/transformed/emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/jonathan/.gradle/caches/transforms-3/b60aa4960a3f31c369dafbdabd72b2c9/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/jonathan/.gradle/caches/transforms-3/b60aa4960a3f31c369dafbdabd72b2c9/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/jonathan/.gradle/caches/transforms-3/a205e429663d839a45d906c0214d562f/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/jonathan/.gradle/caches/transforms-3/a205e429663d839a45d906c0214d562f/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/jonathan/.gradle/caches/transforms-3/f7557b7b37159aa83377aa8cde6a85a3/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/jonathan/.gradle/caches/transforms-3/f7557b7b37159aa83377aa8cde6a85a3/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /home/jonathan/.gradle/caches/transforms-3/67b41eccd1f041aab845bbd255adbe63/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/jonathan/.gradle/caches/transforms-3/67b41eccd1f041aab845bbd255adbe63/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/jonathan/.gradle/caches/transforms-3/34ba32f5ba4cb1a78d51ca940750cf5d/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/jonathan/.gradle/caches/transforms-3/34ba32f5ba4cb1a78d51ca940750cf5d/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/jonathan/.gradle/caches/transforms-3/01f4912afb52f239e10d22e127da1af7/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/jonathan/.gradle/caches/transforms-3/01f4912afb52f239e10d22e127da1af7/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/jonathan/.gradle/caches/transforms-3/fd941e40cddb8ef1d52f8505a45f2029/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/jonathan/.gradle/caches/transforms-3/fd941e40cddb8ef1d52f8505a45f2029/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/jonathan/.gradle/caches/transforms-3/3c29270b39a9e48546645dd9dee52444/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/jonathan/.gradle/caches/transforms-3/3c29270b39a9e48546645dd9dee52444/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/jonathan/.gradle/caches/transforms-3/4369101ec1993eb63cfda32c29c145da/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/jonathan/.gradle/caches/transforms-3/4369101ec1993eb63cfda32c29c145da/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/jonathan/.gradle/caches/transforms-3/531775e5df130f279d658a8bfbe587d0/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/jonathan/.gradle/caches/transforms-3/531775e5df130f279d658a8bfbe587d0/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/jonathan/.gradle/caches/transforms-3/8defe5599ccb02c3ecdb783af44872c4/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/jonathan/.gradle/caches/transforms-3/8defe5599ccb02c3ecdb783af44872c4/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.9.0] /home/jonathan/.gradle/caches/transforms-3/ebcc01801558a7131546317bf5596cb6/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /home/jonathan/.gradle/caches/transforms-3/ebcc01801558a7131546317bf5596cb6/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /home/jonathan/.gradle/caches/transforms-3/7290d33c88f0d531c8a179a347f20049/transformed/core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /home/jonathan/.gradle/caches/transforms-3/7290d33c88f0d531c8a179a347f20049/transformed/core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/jonathan/.gradle/caches/transforms-3/f8a9fa4f1ce41dbddac22550ccb2d9e6/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/jonathan/.gradle/caches/transforms-3/f8a9fa4f1ce41dbddac22550ccb2d9e6/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/jonathan/.gradle/caches/transforms-3/dee179a10dcda7e894136e53100406c5/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/jonathan/.gradle/caches/transforms-3/dee179a10dcda7e894136e53100406c5/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/jonathan/.gradle/caches/transforms-3/1eb7f9a972d190028da2691343b41859/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/jonathan/.gradle/caches/transforms-3/1eb7f9a972d190028da2691343b41859/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/jonathan/.gradle/caches/transforms-3/8849d8f185724fa1d074e83846c7a925/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/jonathan/.gradle/caches/transforms-3/8849d8f185724fa1d074e83846c7a925/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/jonathan/.gradle/caches/transforms-3/cadab43a3687c1803206790e5f3b67eb/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/jonathan/.gradle/caches/transforms-3/cadab43a3687c1803206790e5f3b67eb/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/jonathan/.gradle/caches/transforms-3/33dc2f74d37d90cc86adfdba572d6c01/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/jonathan/.gradle/caches/transforms-3/33dc2f74d37d90cc86adfdba572d6c01/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/jonathan/.gradle/caches/transforms-3/d08a0191fe9d26fd09f6dad3c34bb371/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/jonathan/.gradle/caches/transforms-3/d08a0191fe9d26fd09f6dad3c34bb371/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/jonathan/.gradle/caches/transforms-3/4d3a853cff10ce372bdd5784ae4f92ad/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/jonathan/.gradle/caches/transforms-3/4d3a853cff10ce372bdd5784ae4f92ad/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/jonathan/.gradle/caches/transforms-3/d8f2dc09c452ce7e8d8178309f6c036b/transformed/startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/jonathan/.gradle/caches/transforms-3/d8f2dc09c452ce7e8d8178309f6c036b/transformed/startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/jonathan/.gradle/caches/transforms-3/026a105fedc2421a0f36e0224215c08c/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/jonathan/.gradle/caches/transforms-3/026a105fedc2421a0f36e0224215c08c/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/jonathan/.gradle/caches/transforms-3/421eb728ba89037ae9fb0ca04b9c7824/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/jonathan/.gradle/caches/transforms-3/421eb728ba89037ae9fb0ca04b9c7824/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/jonathan/.gradle/caches/transforms-3/c4e3ae3a702613a1b405c65fd01cb84c/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/jonathan/.gradle/caches/transforms-3/c4e3ae3a702613a1b405c65fd01cb84c/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /home/jonathan/.gradle/caches/transforms-3/97c10f7bcdd21b9f2cb9fb68ea1e75c0/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /home/jonathan/.gradle/caches/transforms-3/97c10f7bcdd21b9f2cb9fb68ea1e75c0/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/jonathan/.gradle/caches/transforms-3/754391a91e4e64c3c6e5726c5595dc8e/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/jonathan/.gradle/caches/transforms-3/754391a91e4e64c3c6e5726c5595dc8e/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/jonathan/.gradle/caches/transforms-3/901cef376f864562599d777790d47120/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/jonathan/.gradle/caches/transforms-3/901cef376f864562599d777790d47120/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/jonathan/.gradle/caches/transforms-3/086e13b35e67494c8ec87197b79348fd/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/jonathan/.gradle/caches/transforms-3/086e13b35e67494c8ec87197b79348fd/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/jonathan/.gradle/caches/transforms-3/24ed0ad0459aae9ff83311f0beedf17e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/jonathan/.gradle/caches/transforms-3/24ed0ad0459aae9ff83311f0beedf17e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/jonathan/.gradle/caches/transforms-3/177f64d7fe32be7540af7bfbae1c9526/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/jonathan/.gradle/caches/transforms-3/177f64d7fe32be7540af7bfbae1c9526/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml
+INJECTED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml
+		ADDED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml
+		ADDED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jonathan/WifiHotspotSelector/app/src/main/AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] /home/jonathan/.gradle/caches/transforms-3/b6c42568698ed014f4af4b1e0dedad51/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/jonathan/.gradle/caches/transforms-3/4d3a853cff10ce372bdd5784ae4f92ad/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/jonathan/.gradle/caches/transforms-3/4d3a853cff10ce372bdd5784ae4f92ad/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/jonathan/.gradle/caches/transforms-3/d8f2dc09c452ce7e8d8178309f6c036b/transformed/startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/jonathan/.gradle/caches/transforms-3/d8f2dc09c452ce7e8d8178309f6c036b/transformed/startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/jonathan/.gradle/caches/transforms-3/b6c42568698ed014f4af4b1e0dedad51/transformed/emoji2-1.0.0/AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/jonathan/.gradle/caches/transforms-3/b6c42568698ed014f4af4b1e0dedad51/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/jonathan/.gradle/caches/transforms-3/b6c42568698ed014f4af4b1e0dedad51/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/jonathan/.gradle/caches/transforms-3/b6c42568698ed014f4af4b1e0dedad51/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] /home/jonathan/.gradle/caches/transforms-3/b6c42568698ed014f4af4b1e0dedad51/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/jonathan/.gradle/caches/transforms-3/b6c42568698ed014f4af4b1e0dedad51/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/jonathan/.gradle/caches/transforms-3/b6c42568698ed014f4af4b1e0dedad51/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/jonathan/.gradle/caches/transforms-3/ebcc01801558a7131546317bf5596cb6/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /home/jonathan/.gradle/caches/transforms-3/ebcc01801558a7131546317bf5596cb6/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/jonathan/.gradle/caches/transforms-3/ebcc01801558a7131546317bf5596cb6/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+permission#com.wifihotspot.selector.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/jonathan/.gradle/caches/transforms-3/ebcc01801558a7131546317bf5596cb6/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /home/jonathan/.gradle/caches/transforms-3/ebcc01801558a7131546317bf5596cb6/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/jonathan/.gradle/caches/transforms-3/ebcc01801558a7131546317bf5596cb6/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/jonathan/.gradle/caches/transforms-3/ebcc01801558a7131546317bf5596cb6/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/jonathan/.gradle/caches/transforms-3/ebcc01801558a7131546317bf5596cb6/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+uses-permission#com.wifihotspot.selector.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/jonathan/.gradle/caches/transforms-3/ebcc01801558a7131546317bf5596cb6/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/jonathan/.gradle/caches/transforms-3/ebcc01801558a7131546317bf5596cb6/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/jonathan/.gradle/caches/transforms-3/4d3a853cff10ce372bdd5784ae4f92ad/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/jonathan/.gradle/caches/transforms-3/4d3a853cff10ce372bdd5784ae4f92ad/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/jonathan/.gradle/caches/transforms-3/4d3a853cff10ce372bdd5784ae4f92ad/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78

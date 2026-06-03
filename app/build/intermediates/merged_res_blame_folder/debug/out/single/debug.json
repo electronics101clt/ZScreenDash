@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/jonathan/.gradle/daemon/8.2/com.wifihotspot.selector.app-merged_res-26:/layout_activity_main.xml.flat",
+        "source": "/home/jonathan/.gradle/daemon/8.2/com.wifihotspot.selector.app-main-28:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.wifihotspot.selector.app-merged_res-26:/xml_accessibility_config.xml.flat",
+        "source": "com.wifihotspot.selector.app-main-28:/xml/accessibility_config.xml"
+    }
+]
