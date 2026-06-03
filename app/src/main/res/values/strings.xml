@@ -2,4 +2,5 @@
 <resources>
     <string name="app_name">ZScreen Dash</string>
     <string name="accessibility_description">Allows the app to stop CarPlay and take over WiFi control. Required to release the hotspot when CarPlay is blocking WiFi.</string>
+    <string name="widget_description">Shows live car dashboard data from ESP32</string>
 </resources>

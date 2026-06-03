@@ -2417,6 +2417,7 @@ drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable widget_background
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -2534,6 +2535,8 @@ id container
 id content
 id contentPanel
 id contiguous
+id coolant_label
+id coolant_value
 id coordinator
 id cos
 id counterclockwise
@@ -2596,6 +2599,8 @@ id flip
 id floating
 id forever
 id fragment_container_view_tag
+id fuel_label
+id fuel_value
 id fullscreen_header
 id ghost_view
 id ghost_view_holder
@@ -2624,6 +2629,7 @@ id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
 id labeled
+id last_update
 id layout
 id left
 id leftToRight
@@ -2731,6 +2737,8 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id rpm_label
+id rpm_value
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -2767,6 +2775,8 @@ id snap
 id snapMargins
 id spacer
 id special_effects_controller_view_tag
+id speed_label
+id speed_value
 id spline
 id split_action_bar
 id spread
@@ -2848,6 +2858,7 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
+id webView
 id withText
 id withinBounds
 id wrap
@@ -3036,6 +3047,7 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+layout widget_dashboard
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
 string abc_action_bar_up_description
@@ -3161,6 +3173,7 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string search_menu_title
 string status_bar_notification_info_overflow
+string widget_description
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow
@@ -4356,6 +4369,7 @@ styleable ViewBackgroundHelper android_background backgroundTint backgroundTintM
 styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_layout android_inflatedId
 xml accessibility_config
+xml dashboard_widget_info
 xml standalone_badge
 xml standalone_badge_gravity_bottom_end
 xml standalone_badge_gravity_bottom_start

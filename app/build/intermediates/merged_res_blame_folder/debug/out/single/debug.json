@@ -1,10 +1,26 @@
 [
     {
+        "merged": "com.wifihotspot.selector.app-merged_res-26:/xml_dashboard_widget_info.xml.flat",
+        "source": "com.wifihotspot.selector.app-main-28:/xml/dashboard_widget_info.xml"
+    },
+    {
+        "merged": "/home/jonathan/.gradle/daemon/8.2/com.wifihotspot.selector.app-merged_res-26:/xml_accessibility_config.xml.flat",
+        "source": "/home/jonathan/.gradle/daemon/8.2/com.wifihotspot.selector.app-main-28:/xml/accessibility_config.xml"
+    },
+    {
         "merged": "/home/jonathan/.gradle/daemon/8.2/com.wifihotspot.selector.app-merged_res-26:/layout_activity_main.xml.flat",
         "source": "/home/jonathan/.gradle/daemon/8.2/com.wifihotspot.selector.app-main-28:/layout/activity_main.xml"
     },
     {
-        "merged": "com.wifihotspot.selector.app-merged_res-26:/xml_accessibility_config.xml.flat",
-        "source": "com.wifihotspot.selector.app-main-28:/xml/accessibility_config.xml"
+        "merged": "com.wifihotspot.selector.app-merged_res-26:/drawable_widget_background.xml.flat",
+        "source": "com.wifihotspot.selector.app-main-28:/drawable/widget_background.xml"
+    },
+    {
+        "merged": "/home/jonathan/.gradle/daemon/8.2/com.wifihotspot.selector.app-merged_res-26:/xml_network_security_config.xml.flat",
+        "source": "/home/jonathan/.gradle/daemon/8.2/com.wifihotspot.selector.app-main-28:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "com.wifihotspot.selector.app-merged_res-26:/layout_widget_dashboard.xml.flat",
+        "source": "com.wifihotspot.selector.app-main-28:/layout/widget_dashboard.xml"
     }
 ]
