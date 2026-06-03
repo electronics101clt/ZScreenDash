@@ -1,6 +1,7 @@
 package com.wifihotspot.selector
 
 import android.Manifest
+import android.bluetooth.BluetoothAdapter
 import android.content.Context
 import android.content.pm.PackageManager
 import android.content.Intent
@@ -85,8 +86,9 @@ class MainActivity : AppCompatActivity() {
         if (!wifiManager.isWifiEnabled) {
             Log.d(TAG, "WiFi is off, attempting to enable")
 
-            // Try to kill SoftAP first
+            // Try to kill SoftAP and Bluetooth first
             killSoftAp()
+            killBluetooth()
 
             // Try setWifiEnabled (works on Android 9 and below)
             val success = try {
@@ -127,6 +129,24 @@ class MainActivity : AppCompatActivity() {
             Log.d(TAG, "killSoftAp: setWifiApEnabled(null, false) called")
         } catch (e: Exception) {
             Log.d(TAG, "killSoftAp failed: ${e.message}")
+        }
+    }
+
+    @Suppress("DEPRECATION")
+    private fun killBluetooth() {
+        try {
+            val bluetoothAdapter = BluetoothAdapter.getDefaultAdapter()
+            if (bluetoothAdapter != null && bluetoothAdapter.isEnabled) {
+                val success = bluetoothAdapter.disable()
+                Log.d(TAG, "killBluetooth: disable() returned $success")
+                if (!success) {
+                    Log.d(TAG, "killBluetooth: automatic disable failed")
+                }
+            } else {
+                Log.d(TAG, "killBluetooth: Bluetooth already off or not available")
+            }
+        } catch (e: Exception) {
+            Log.e(TAG, "killBluetooth failed: ${e.message}")
         }
     }
 
@@ -208,6 +228,9 @@ class MainActivity : AppCompatActivity() {
     private fun showBlockedByHotspot() {
         val apState = getWifiApState()
         if (apState == 13 || apState == 12) { // AP_STATE_ENABLED or AP_STATE_ENABLING
+            // Try to kill Bluetooth to prevent CarPlay interference
+            killBluetooth()
+
             // Check if accessibility service is enabled
             if (CarPlayKillerService.isServiceEnabled(this)) {
                 // Auto-trigger WiFi enable silently
